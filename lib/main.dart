@@ -29,9 +29,9 @@ class XylophoneApp extends StatelessWidget {
 }
 
 class MusicButton extends StatelessWidget {
-  MaterialColor color;
-  int number;
-  AudioCache player;
+  final MaterialColor color;
+  final int number;
+  final AudioCache player;
 
   MusicButton(this.number, this.color, this.player);
 
